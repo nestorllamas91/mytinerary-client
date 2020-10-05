@@ -1,0 +1,54 @@
+{
+  "name": "mytinerary-client",
+  "version": "0.1.0",
+  "author": {
+    "name": "Néstor Llamas",
+    "email": "nestorllamas91@gmail.com"
+  },
+  "description": "Client application of MYtinerary, a platform that allows users to search trip itineraries.",
+  "keywords": [
+    "mytinerary",
+    "traveling",
+    "itineraries"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestorllamas91/mytinerary-client.git"
+  },
+  "scripts": {
+    "dev": "react-app-rewired start -p 3003",
+    "build": "react-app-rewired build",
+    "start": "react-app-rewired start -p 3003",
+    "update": "npm i -D npm-check-updates && ncu -u --packageFile package.json && npm i"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "@material-ui/lab": "4.0.0-alpha.56",
+    "@reduxjs/toolkit": "1.4.0",
+    "axios": "0.20.0",
+    "babel-plugin-module-resolver": "4.0.0",
+    "customize-cra": "1.0.0",
+    "jwt-decode": "3.0.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-app-rewired": "2.1.6",
+    "react-dom": "16.13.1",
+    "react-hook-form": "6.9.0",
+    "react-image-crop": "8.6.6",
+    "react-redux": "7.2.1",
+    "react-responsive-modal": "5.1.1",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
+    "react-slick": "0.27.11",
+    "slick-carousel": "1.8.1",
+    "slugify": "1.4.5",
+    "styled-jsx": "3.3.0",
+    "sweetalert2": "10.3.5",
+    "sweetalert2-react-content": "3.2.0"
+  },
+  "devDependencies": {
+    "npm-check-updates": "9.0.4"
+  }
+}
